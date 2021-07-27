@@ -173,8 +173,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* ==========================================================================
 Headings
 ========================================================================== */
-h1.chain { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/cog-icon.png) no-repeat top center; padding-top: 75px; }
-h2.frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/frame-icon.png) no-repeat top center; padding-top: 65px; margin-top: 70px; }
+h1.chain { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 24px; font-weight: 600; }
+h2.frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/logo-small.png) no-repeat top center; background-size: contain; padding-top: 65px; margin-top: 70px; }
 h2.mech { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/mech-icon.png) no-repeat top center; padding-top: 65px; margin-top: 70px; }
 h2.front-frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/front-icon.png) no-repeat top center; padding-top: 65px; margin-top: 70px; }
 h2.twitter-post-username { color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; margin-top: 30px; }
@@ -197,7 +197,7 @@ p { text-align: center; font-size: 14px; color: #848789; font-weight: 300; word-
 p.text-intro { font-size: 18px; }
 .hero { background: url(../img/hero-bg.jpg) no-repeat top center #f4f5fc; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 685px; }
 nav { height: 85px; margin-top: 30px; position: relative; }
-.logo-holder { background: url(../img/main-logo.png) no-repeat center center; width: 94px; height: 85px; position: absolute; top: 0; left: 327px; }
+.logo-holder { background: url(../img/main-logo.png) no-repeat center center; background-size: contain; width: 94px; height: 85px; position: absolute; top: 0; left: 327px; }
 .responsive-logo { display: hidden; }
 header { background-color: #f4f5fc; }
 header ul { padding-top: 35px; }
@@ -269,3 +269,68 @@ footer p { font-size: 13px; margin: 0; }
 .pintrest-icon { background: url(../img/pintrest-icon.png); height: 34px; width: 35px; display: block; text-indent: -9999px; }
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
 .bounceInLeft, .bounceInRight, .fadeInUp { visibility: visible; }
+
+.logo{
+	background: url(../img/main-logo.png) no-repeat center center;
+	background-size: contain;
+	height: 80px;
+	width: 81px;
+}
+
+.header-nav{
+	display: flex;
+	justify-content: space-between;
+	height: 10%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	backdrop-filter: blur(10px);
+	background-color: rgba(255, 255, 255, 0.6);
+	box-shadow: 0px 0px 13px -3px black;
+	padding: 10px 0;
+}
+
+.nav-menu{
+	display: flex;
+	align-items: center;
+}
+
+.nav-menu-ul{
+	padding: 0;
+	margin: 0;
+}
+
+.nav-menu-ul-li{
+	margin-left: 70px;
+	font-weight: 600;
+	font-size: 1rem;
+	transition: all ease-in-out 0.15s;
+}
+
+.nav-menu-ul-li:hover{
+	color: #f6ac04;
+}
+
+.header-logo{
+	background: url(../img/img2.JPG) no-repeat center 90%;
+	background-size: cover;
+	height: 45vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px -70px 100px -71px rgba(34, 60, 80, 1) inset;
+}
+
+.in-header-text{
+	border: 10px solid white;
+	border-radius: 8px;
+	width: 70%;
+	background-color:rgba(255,255,255,.5);
+	backdrop-filter: blur(5px);
+}
